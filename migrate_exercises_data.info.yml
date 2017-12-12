@@ -1,0 +1,4 @@
+name: Migrate Exercises Data
+type: module
+description: Data and content types for migration exercises
+core: 8.x

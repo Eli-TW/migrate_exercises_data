@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.dog_breed
+  module:
+    - text
+id: node.dog_breed.body
+field_name: body
+entity_type: node
+bundle: dog_breed
+label: Body
+description: 'Description of the breed'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.dog.field_breed
+    - node.type.dog
+  module:
+    - user
+id: node.dog.teaser
+targetEntityType: node
+bundle: dog
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_breed: true

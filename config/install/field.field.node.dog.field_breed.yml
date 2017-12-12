@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_breed
+    - node.type.dog
+    - node.type.dog_breed
+id: node.dog.field_breed
+field_name: field_breed
+entity_type: node
+bundle: dog
+label: Breed
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      dog_breed: dog_breed
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
