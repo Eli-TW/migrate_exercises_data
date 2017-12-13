@@ -1,0 +1,22 @@
+uuid: 4fab6d96-063c-404c-ab75-92c22e9b80e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.rodent
+  module:
+    - text
+id: node.rodent.body
+field_name: body
+entity_type: node
+bundle: rodent
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
